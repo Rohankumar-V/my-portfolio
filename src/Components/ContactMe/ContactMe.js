@@ -6,7 +6,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import DownloadIcon from '@mui/icons-material/Download';
 const handleGitHubClick = () => {
-    window.open("https://github.com/RohankumarV", "_blank");
+    window.open("https://github.com/Rohankumar-V", "_blank");
 };
 
 const handleLinkedInClick = () => {
@@ -36,7 +36,7 @@ const  ContactMe = () => {
                     <GitHubIcon />
                 </div>
                     <ContactInfoCard 
-                    text="https://github.com/RohankumarV"
+                    text="https://github.com/Rohankumar-V"
                     />
                 </div>
                 <div className="contact-content-info" style={{flex:1}} onClick={handleLinkedInClick}>
